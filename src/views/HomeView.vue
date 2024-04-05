@@ -12,7 +12,6 @@ const test = ref()
       v-model="test"
       :autoApply="true"
       range
-      :partialFlow="true"
       text-input
     ></VueDatePicker>
   </main>
